@@ -1,0 +1,46 @@
+# Godot
+.godot/
+.import/
+*.translation
+
+# Export and signing
+export.cfg
+export_presets.cfg
+*.keystore
+*.jks
+*.p12
+*.mobileprovision
+*.provisionprofile
+*.pem
+*.key
+
+# OS
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Editor and temp
+*.tmp
+*.swp
+*.swo
+*~
+*.uid.bak
+
+# Builds
+/build/
+/builds/
+/bin/
+*.apk
+*.aab
+*.ipa
+
+# Local secrets
+.env
+.env.*
+!.env.example
+credentials.json
+**/service-account*.json
+*.secret

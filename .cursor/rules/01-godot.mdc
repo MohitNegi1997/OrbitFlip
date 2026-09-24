@@ -1,0 +1,25 @@
+---
+description: Godot 4.x GDScript conventions
+globs: "**/*.{gd,tscn,tres}"
+alwaysApply: false
+---
+
+# Godot
+
+- Godot 4.x
+- Typed GDScript where practical
+- Small focused scripts
+- Clear ownership
+- Composition preferred
+- No unnecessary autoload
+- No giant manager
+- Avoid duplicated logic
+- No speculative systems
+- Fix parser/runtime errors before declaring success
+
+```gdscript
+# Bad: untyped global manager
+# Good: small typed script with one owner
+func _apply_theme(profile: ThemeProfile) -> void:
+	pass
+```

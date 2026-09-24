@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="ThemeProfile" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://core/theme/theme_profile.gd" id="1_profile"]
+
+[resource]
+script = ExtResource("1_profile")
+id = &"cartoon_arcade"
+display_name = "Cartoon Arcade"
+color_blue = Color(0.180392, 0.482353, 1, 1)
+color_sky = Color(0.494118, 0.784314, 1, 1)
+color_yellow = Color(1, 0.847059, 0.290196, 1)
+color_orange = Color(1, 0.541176, 0.239216, 1)
+color_white = Color(1, 1, 1, 1)
+color_pink = Color(1, 0.435294, 0.682353, 1)
+asset_root = "res://assets/svg/themes/cartoon_arcade"

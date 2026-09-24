@@ -1,0 +1,23 @@
+---
+description: SVG and asset organization rules
+globs: assets/**/*
+alwaysApply: false
+---
+
+# Assets
+
+Prefer SVG for suitable game UI vector assets.
+
+SVG requirements:
+
+- descriptive filename
+- valid viewBox
+- transparent background where appropriate
+- no unnecessary masks
+- no embedded raster artwork unless approved
+- Godot compatible
+- organized directories
+
+Theme-specific vectors belong in `assets/svg/themes/<theme_name>/`.
+
+Never replace an approved asset with a random alternative.

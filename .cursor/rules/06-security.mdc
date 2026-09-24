@@ -1,0 +1,10 @@
+---
+description: Never commit secrets or signing material
+alwaysApply: true
+---
+
+# Security
+
+Never commit API keys, tokens, passwords, keystores, signing certificates, provisioning profiles, service-account credentials, or private environment files.
+
+Keep platform secrets outside Git.

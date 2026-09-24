@@ -1,0 +1,27 @@
+---
+description: Read project docs and stay inside the current phase before any change
+alwaysApply: true
+---
+
+# Project guard
+
+BEFORE ANY CHANGE:
+
+1. Read docs/ARCHITECTURE.md.
+2. Read docs/PROJECT_STATE.md.
+3. Read the relevant requirement/specification.
+4. Inspect the existing implementation.
+5. Follow existing architecture.
+6. Respect the current project phase/gate.
+7. Do not perform unrelated work.
+8. Do not proceed automatically to another step.
+
+AFTER CHANGE:
+
+1. Run relevant verification.
+2. Report changed files.
+3. STOP.
+
+Architecture changes require explicit user approval.
+
+The user must never need to say "read architecture first".

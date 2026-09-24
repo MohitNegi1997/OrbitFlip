@@ -1,0 +1,21 @@
+---
+description: Pixel-faithful UI from approved references only
+globs: "{app,shared,features}/**/*.{gd,tscn}"
+alwaysApply: false
+---
+
+# UI fidelity
+
+Approved UI reference is the source of truth. Never improvise approved designs.
+
+Respect exact hierarchy, spacing, dimensions, alignment, typography, colors, button proportions, icon sizing, safe areas, responsive behavior, and component states.
+
+Do not substitute emojis, random icons, or platform icons for approved game assets.
+
+If docs/PROJECT_STATE.md or docs/UI_UX_REQUIREMENTS.md still block UI, stop.
+
+Workflow:
+
+implement one approved screen → run → screenshot → STOP
+
+The user sends the screenshot for pixel-perfect review. Do not continue until approved.

@@ -1,0 +1,24 @@
+---
+description: One approved step per commit and push. Use when committing or pushing.
+alwaysApply: false
+---
+
+# Git workflow
+
+One logical step per commit.
+
+Before commit:
+
+- inspect git diff
+- run relevant validation
+- verify no secrets
+- verify no generated cache
+- verify no accidental unrelated changes
+
+Do not commit unfinished UI simply because coding finished.
+UI implementation must first be visually approved.
+Once the user approves: commit → push → next step.
+
+Initial project setup may be committed after successful verification.
+
+Never force push. Never modify origin unless explicitly requested.

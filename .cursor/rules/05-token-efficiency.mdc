@@ -1,0 +1,15 @@
+---
+description: Keep edits and reports minimal
+alwaysApply: true
+---
+
+# Token efficiency
+
+- Inspect before editing
+- Modify the minimum required files
+- Do not rewrite unchanged files
+- Do not repeat architecture in responses
+- Use project docs and rules as context
+- No lengthy explanations unless requested
+- Compact completion report
+- Stop after the requested task
